@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.accordion-expand-btn {
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+.accordion-panel {
+  border: 1px solid #e5e5e5;
+}
+.accordion-btn {
+  padding: 5px;
+}
+.accordion-btn button {
+  border: 0 !important;
+  outline: 0 !important;
+}
+span.flip-down {
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+span.flip-up {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+.max-height-0 {
+  max-height: 0;
+}
+.max-height-150 {
+  max-height: 150px;
+}
+.transition-custom-enter {
+  transition: all 2s ease;
+}
+.transition-custom-leave {
+  transition: all 0.7s ease;
+}
+.overflow-h {
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+.wpr {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+}
+.content {
+  width: 500px;
+  border: 1px solid red;
+  padding: 0px 10px;
+  transition: all 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+.content.animate {
+  max-height: 150px;
+  padding: 10px;
+}
